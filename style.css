@@ -1,0 +1,49 @@
+.container {
+    background: #000000;
+    color: #ffffff;
+    padding: 40px;
+    position: fixed; 
+      top: 50%;
+      left: 50%;
+    transform: translate3d(-50%,-50%,0);
+  
+    z-index: 1000;
+    mix-blend-mode: lighten;
+  }
+  
+  #quoteBox {
+    background: #000000;
+    width: 500px;
+    mix-blend-mode: lighten;
+  }
+  
+  #tweetIcon {
+    width: 10px;
+    height: 10px;
+  }
+  
+  #genDisplay {
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 26px;
+    line-height: 28px;
+    padding: 0px 0px 0px 0px;
+    mix-blend-mode: lighten;
+  }
+  
+  button {
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 14px;
+    background: #ffffff;
+    margin: 20px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    
+  }
+  
+  section {
+    background-size: cover;
+    height: 800px;
+    isolation: isolate;
+    position: relative;
+    padding: 1px;
+  }
